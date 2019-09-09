@@ -38,7 +38,8 @@ Start the port forwarding for the registry
 
 To test if everything went right you can deploy the example project
 
-switch to the ``example`` folder and use ``mvnw clean install docker:push`` to build and deploy it
+switch to the ``example`` folder and use ``mvnw clean install docker:push`` to build and deploy it 
+``kubectl apply -f .\example\kubernetes\deployment.yml``
 
 you can see the example on [http://example.127.0.0.1.xip.io/](http://example.127.0.0.1.xip.io/) 
 
